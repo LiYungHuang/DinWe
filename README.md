@@ -30,17 +30,16 @@
     (1) cd dinwe\MySQL  
     (2) 匯入 dinwe.sql 資料庫  
     (3) 建立personal_access_tokens  
-        ```
-        php artisan migrate
-        ``` 
+    ```
+    php artisan migrate
+    ``` 
     
     **法二、**  
     
-    (1) 匯入資料庫  
-        (詢問是否建立資料庫=>'dinwe' is not exist => yes)  
-        ```
-        php artisan migrate
-        ```  
+    (1) 匯入資料庫，詢問是否建立資料庫 =>'dinwe' is not exist => yes  
+    ```
+    php artisan migrate
+    ```  
     (2) cd dinwe\MySQL  
     (3) 執行changeImageType.sql，修改Image型態 (Laravel不支援mediumblob，原先預設為blob)  
     (4) 匯入dinwe.sql 資料庫  
