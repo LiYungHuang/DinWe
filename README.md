@@ -23,27 +23,31 @@ composer install
 ```
 php artisan key:generate
 ```
-5. 匯入 MySQL
+5. 匯入 MySQL  
     法一、  
     (1) cd dinwe\MySQL  
-    (2) 匯入 dinwe.sql 資料庫
+    (2) 匯入 dinwe.sql 資料庫  
     (3) 建立personal_access_tokens
     ```
     php artisan migrate
     ``` 
     
-    法二、
+    法二、  
     (1) 匯入資料庫 (詢問是否建立資料庫=>'dinwe' is not exist => yes)
     ```
     php artisan migrate
     ```
-    (2) cd dinwe\MySQL
-    (3) 執行changeImageType.sql，修改Image型態 (Laravel不支援mediumblob，原先預設為blob)
-    (4) 匯入dinwe.sql 資料庫
+    (2) cd dinwe\MySQL  
+    (3) 執行changeImageType.sql，修改Image型態 (Laravel不支援mediumblob，原先預設為blob)  
+    (4) 匯入dinwe.sql 資料庫  
     
 6. 匯入 MySQL StoredProcedure
->cd dinwe\MySQL\StoredProcedure
->點開All.sql檔案，Ctrl+A 全選、Ctrl+C複製程序
->貼上資料庫執行 SQL
->```php artisan serve```
+>cd dinwe\MySQL\StoredProcedure  
+>點開All.sql檔案，Ctrl+A 全選、Ctrl+C複製程序  
+>貼上資料庫執行 SQL  
+    
+7. 執行Laravel 
+```
+php artisan serve
+```
 
