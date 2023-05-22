@@ -37,19 +37,17 @@ export default function StoreInformation(props) {
   ]);
 
   let [resturant, setResturant] = React.useState({
-    resturant_iframe:
-      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d910.0829211106352!2d120.68505681885802!3d24.160097742099463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d61a5364761%3A0x86249dcf46d88e04!2z5aSn5qi55YWI55Sf6Kaq5a2Q6aSQ5buz!5e0!3m2!1szh-TW!2stw!4v1682927324112!5m2!1szh-TW!2stw",
-    resturant_name: "大樹餐廳",
+    resturant_iframe:"",
+    resturant_name: "",
     resturant_id: 1,
-    resturant_image1: "https://picsum.photos/1500/500?random=1",
-    resturant_image2: "https://picsum.photos/1500/500?random=2",
-    resturant_image3: "https://picsum.photos/1500/500?random=3",
-    resturant_intro:
-      "「赤腳ㄚ生態農莊」是2015年中新開的一間生態農場，位於小麥之鄉大雅，收費是門票$100(折抵園內購物$50)，非常歡迎各位大朋友小朋友們到「赤腳ㄚ生態農莊」走走，這邊足夠讓孩子待上三小時都沒有問題，園內設施滿多的，有城堡遊戲室(室內遊戲、球池、溜滑梯)、戲水區、乾濕分離沙坑、生態池、可愛動物區、魚池可以餵魚、魚菜共生生態瓶DIY、烤肉區、餐廳、會議室、蝴蝶園、櫻花林、餐飲部、販賣部…….等等。",
-    resturant_menu1: "https://picsum.photos/id/66/1200/900",
-    resturant_menu2: "https://picsum.photos/id/68/1200/900",
-    resturant_menu3: "https://picsum.photos/id/70/1200/900",
-    resturant_menu4: "https://picsum.photos/id/70/1200/900",
+    resturant_image1: "",
+    resturant_image2: "",
+    resturant_image3: "",
+    resturant_intro:"",
+    resturant_menu1: "",
+    resturant_menu2: "",
+    resturant_menu3: "",
+    resturant_menu4: "",
   });
 
   let [facilities, setFacilities] = React.useState({
